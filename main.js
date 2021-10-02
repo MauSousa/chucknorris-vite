@@ -1,5 +1,8 @@
+import { getJoke } from "./js/http-provider";
 
-const jokeUrl = 'https://api.chucknorris.io/jokes/random'
+
+getJoke().then( console.log )
+
 
 
 /* With promises
